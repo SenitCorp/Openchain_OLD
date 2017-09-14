@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <AssemblyName>Openchain.SDK</AssemblyName>
+    <PackageId>Openchain.SDK</PackageId>
+    <NetStandardImplicitPackageVersion>1.6.1</NetStandardImplicitPackageVersion>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.2" />
+    <PackageReference Include="Openchain.Abstractions" Version="0.7.0" />
+    <PackageReference Include="Openchain.Infrastructure" Version="0.7.0" />
+    <PackageReference Include="Openchain.Validation.PermissionBased" Version="0.7.0" />
+    <PackageReference Include="System.Slices" Version="0.1.0-e161122-4" />
+    <PackageReference Include="NBitcoin" Version="3.0.2.23" />
+  </ItemGroup>
+
+</Project>
